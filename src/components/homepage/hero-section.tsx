@@ -21,7 +21,7 @@ export default function HeroSection() {
 					</div>
 					<div className="max-w-full">
 						<Image
-							src="/illustration.svg"
+							src="./illustration.svg"
 							alt="illustration"
 							width={391}
 							height={407}
