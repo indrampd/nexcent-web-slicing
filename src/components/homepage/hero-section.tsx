@@ -21,7 +21,7 @@ export default function HeroSection() {
 					</div>
 					<div className="max-w-full">
 						<Image
-							src="./illustration.png"
+							src="/illustration.png"
 							alt="illustration"
 							width={391}
 							height={407}
