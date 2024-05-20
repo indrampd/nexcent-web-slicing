@@ -9,7 +9,7 @@ export default function ClientSection() {
 		{ src: "/client-5.svg", alt: "client-5" },
 		{ src: "/client-6.svg", alt: "client-6" },
 		{ src: "/client-7.svg", alt: "client-7" },
-	];
+	]; 
 	return (
 		<section className="gap-4 py-[2.5rem] px-[5%]">
 			<div className="flex max-w-[72rem] mx-auto flex-col gap-4 items-center">
