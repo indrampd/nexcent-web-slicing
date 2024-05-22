@@ -80,19 +80,19 @@ export default function Footer() {
 						</h3>
 						<ul className="flex flex-col gap-3 text-neutral-silver text-sm">
 							<li>
-								<Link href="/about">Help Center</Link>
+								<Link href="#">Help Center</Link>
 							</li>
 							<li>
-								<Link href="/contact">Terms and service</Link>
+								<Link href="#">Terms and service</Link>
 							</li>
 							<li>
-								<Link href="/privacy">Legal</Link>
+								<Link href="#">Legal</Link>
 							</li>
 							<li>
-								<Link href="/terms">Pripacy Policy</Link>
+								<Link href="#">Pripacy Policy</Link>
 							</li>
 							<li>
-								<Link href="/terms">Status</Link>
+								<Link href="#">Status</Link>
 							</li>
 						</ul>
 					</div>
