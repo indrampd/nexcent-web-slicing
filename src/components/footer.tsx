@@ -1,5 +1,9 @@
 export default function Footer() {
   return (
-    <div></div>
+    <footer>
+      <p>
+        &copy; 2021 Create Next App
+      </p>
+    </footer>
   );
 }
