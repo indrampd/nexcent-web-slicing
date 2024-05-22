@@ -3,14 +3,14 @@ import ButtonPrimary from "../buttons/button-primary";
 
 export default function UnlockSection() {
   return (
-		<section className=" flex py-[2.5rem] px-[5%]">
-			<div className="flex m-x-[72rem] mx-auto justify-between items-center">
+		<section className="flex py-[2.5rem] px-[5%]">
+			<div className="flex w-full max-w-[72rem] mx-auto justify-between items-center">
 				<figure className="flex">
 					<Image
 						src={"/pana.svg"}
 						alt="Illustration"
 						width={442}
-						height={443}
+						height={329}
 					/>
 				</figure>
 				<div className="flex flex-col gap-8 max-w-[661px]">

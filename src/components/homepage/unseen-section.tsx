@@ -4,7 +4,7 @@ import ButtonPrimary from "../buttons/button-primary";
 export default function UnseenSection() {
 	return (
 		<section className="flex py-[2.5rem] px-[5%]">
-			<div className="flex m-x-[72rem] mx-auto justify-between items-center">
+			<div className="flex w-full max-w-[72rem] mx-auto justify-between items-center">
 				<figure className="flex">
 					<Image
 						src={"/unseen-illustration.svg"}
