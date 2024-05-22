@@ -4,8 +4,8 @@ import ButtonPrimary from "../buttons/button-primary";
 export default function UnseenSection() {
 	return (
 		<section className="flex py-[2.5rem] px-[5%]">
-			<div className="flex w-full max-w-[72rem] mx-auto justify-between items-center">
-				<figure className="flex">
+			<div className="flex max-md:flex-wrap w-full max-w-[72rem] mx-auto justify-between items-center">
+				<figure className="flex max-md:w-full max-sm:justify-center">
 					<Image
 						src={"/unseen-illustration.svg"}
 						alt="Illustration"
@@ -13,9 +13,9 @@ export default function UnseenSection() {
 						height={443}
 					/>
 				</figure>
-				<div className="flex flex-col gap-8 max-w-[661px]">
-					<div className="flex flex-col gap-4 pr-16">
-						<h2 className="text-4xl font-semibold leading-[2.75rem] text-neutral-d-gray">
+				<div className="flex flex-col gap-8">
+					<div className="flex flex-col gap-4 pr-16 sm:max-w-[661px] max-md:w-full">
+						<h2 className="flex text-4xl font-semibold leading-[2.75rem] text-neutral-d-gray">
 							The unseen of spending three years at Pixelgrade
 						</h2>
 						<p>
