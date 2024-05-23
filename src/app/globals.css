@@ -34,7 +34,7 @@
 
 body {
 	color: var(--neutral-gray);
-	background: var(--neutral-silver);
+	background: white;
 }
 
 @layer utilities {

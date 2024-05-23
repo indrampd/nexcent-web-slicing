@@ -3,7 +3,7 @@ import ButtonPrimary from "../buttons/button-primary"; // Assuming ButtonPrimary
 
 export default function HeroSection() {
 	return (
-		<section className="flex py-24 px-[5%] mt-[5.25rem] items-center h-[calc(100vh-5.25rem)] lg:max-h-[40rem] md:max-h-[40rem]">
+		<section className="flex py-24 px-[5%] mt-[5.25rem] items-center h-[calc(100vh-5.25rem)] lg:max-h-[40rem] md:max-h-[40rem] bg-neutral-silver">
 			<div className="max-w-[72rem] mx-auto">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 					<div className="max-w-full">

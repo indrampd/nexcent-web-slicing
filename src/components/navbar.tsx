@@ -13,7 +13,7 @@ export default function Navbar() {
 		{ href: "/faq", label: "FAQ" },
 	];
 	return (
-		<div className="fixed top-0 w-full">
+		<div className="fixed top-0 w-full z-50">
 			<div className="max-h-[5.25rem] py-[1.38rem] px-[5%] bg-neutral-silver">
 				<nav className="flex max-w-[75rem] mx-auto justify-between items-center">
 					<div className="max-lg:hidden">
